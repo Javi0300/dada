@@ -1,0 +1,376 @@
+.card-img {   
+    object-fit: cover;    
+}
+
+/* Small devices (Movil, 360px and up) */
+@media (min-width: 320px) {
+    .card {
+        width: 100%;                
+    }
+
+    .card-img-overlay {
+        margin:0;
+        padding:0;
+        display:inline-block;
+    }
+
+    .encabezado {
+        height: 33%;        
+        padding-left: 8%;        
+        padding-right: 8%; 
+        padding-top: 1%;
+    }
+    .conteiner {        
+        height: 33%;        
+        padding-top: 10%;      
+    }
+    .footer
+    {        
+        height: 33%;
+        padding-left: 25%;        
+        padding-right: 25%;
+        padding-top: 5%;  
+        display:inline-block; 
+        width:100%;       
+    }
+    .card-img {
+        width: 100%;    
+    }
+
+    .card-title {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        text-align: center;
+        
+    }
+    
+    .sub-title {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-align: center;         
+    }
+
+    .folio {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 8px;         
+        position:absolute;                 
+    }
+
+    .fecha {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 8px; 
+        text-align: right;
+        position: relative;       
+                            
+    }
+
+    .card-text {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;               
+    }   
+
+    .key {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 6px;
+        text-align: center;      
+    }   
+
+    .terminos {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 4px;
+        text-align: center;                 
+    }   
+}
+
+/* Medium devices (Movil, 480px and up) */
+@media (min-width: 480px) {
+    .card {
+        width: 100%;        
+        background-color: brown;
+    }
+
+    .card-img-overlay {
+        margin:0;
+        padding:0;
+        display:inline-block;
+    }
+
+    .encabezado {
+        height: 33%;        
+        padding-left: 8%;        
+        padding-right: 8%; 
+        padding-top: 1%;
+    }
+    .conteiner {        
+        height: 33%;        
+        padding-top: 10%;      
+    }
+    .footer
+    {        
+        height: 33%;
+        padding-left: 25%;        
+        padding-right: 25%;
+        padding-top: 5%;  
+        width:100%;        
+    }
+    .card-img {
+        width: 100%;    
+    }
+
+    .card-title {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 45px;
+        text-align: center;
+        
+    }
+    
+    .sub-title {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-align: center;         
+    }
+
+    .folio {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;         
+        position:absolute;                 
+    }
+
+    .fecha {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px; 
+        text-align: right;
+        position: relative;       
+                            
+    }
+
+    .card-text {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;               
+    }   
+
+    .key {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        text-align: center;      
+    }   
+
+    .terminos {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 5px;
+        text-align: center;                 
+    }   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .card {
+        width: 100%;
+        
+        background-color: brown;
+    }
+
+    .card-img-overlay {
+        margin:0;
+        padding:0;
+        display:inline-block;
+    }
+
+    .encabezado {
+        height: 33%;        
+        padding-left: 8%;        
+        padding-right: 8%; 
+        padding-top: 1%;
+    }
+    .conteiner {        
+        height: 33%;        
+        padding-top: 10%;      
+    }
+    .footer
+    {        
+        height: 33%;
+        padding-left: 25%;        
+        padding-right: 25%;
+        padding-top: 5%;          
+    }
+    .card-img {
+        width: 100%;    
+    }
+
+    .card-title {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        
+    }
+    
+    .sub-title {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-align: center;         
+    }
+
+    .folio {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 16px;         
+        position:absolute;                 
+    }
+
+    .fecha {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 16px; 
+        text-align: right;
+        position: relative;       
+                            
+    }
+
+    .card-text {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;               
+    }   
+
+    .key {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;      
+    }   
+
+    .terminos {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 8px;
+        text-align: center;                 
+    }   
+}
+
+/* Large devices (desktops, 992px and up) */  
+@media (min-width: 992px) {
+    .card {
+        width: 70%;
+        
+        background-color: brown;
+    }
+
+    .card-img-overlay {
+        margin:0;
+        padding:0;
+        display:inline-block;
+    }
+
+    .encabezado {
+        height: 33%;        
+        padding-left: 8%;        
+        padding-right: 8%; 
+        padding-top: 1%;
+    }
+    .conteiner {        
+        height: 33%;        
+        padding-top: 10%;      
+    }
+    .footer
+    {        
+        height: 33%;
+        padding-left: 25%;        
+        padding-right: 25%;
+        padding-top: 5%;          
+    }
+    .card-img {
+        width: 100%;    
+    }
+
+    .card-title {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 55px;
+        text-align: center;
+        
+    }
+    
+    .sub-title {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;         
+    }
+
+    .folio {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 18px;         
+        position:absolute;                 
+    }
+
+    .fecha {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 18px; 
+        text-align: right;
+        position: relative;       
+                            
+    }
+
+    .card-text {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;               
+    }   
+
+    .key {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;      
+    }   
+
+    .terminos {
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 8px;
+        text-align: center;                 
+    }   
+}
+
